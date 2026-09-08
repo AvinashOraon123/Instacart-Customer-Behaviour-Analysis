@@ -24,7 +24,6 @@
 - [Market Basket Analysis](#-market-basket-analysis)
 - [ML Model to Predict Product Reorders](#-ml-model-to-predict-product-reorders)
 - [Future Work](#-future-work)
-- [License](#-license)
 
 ---
 
@@ -331,7 +330,3 @@ Since the F1 score can be manipulated by adjusting the classification threshold,
 ## 🚀 Future Work
 
 - Utilize collaborative filtering to recommend products to a customer.
-
-## 📄 License
-
-This project is licensed under the terms of the [LICENSE](LICENSE) file included in this repository.
