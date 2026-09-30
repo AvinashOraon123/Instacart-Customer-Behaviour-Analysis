@@ -30,6 +30,8 @@
 
 Instacart is an American technology company that operates a same-day grocery delivery and pickup service across the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners, and the order is shopped and delivered by an Instacart personal shopper.
 
+This project walks through the full workflow: data preparation, exploratory analysis, customer segmentation, market basket analysis, and reorder prediction.
+
 ## 🎯 Objectives
 
 - 📊 Analyze the anonymized [Instacart dataset](https://www.kaggle.com/c/instacart-market-basket-analysis/data) of **3 million grocery orders** from more than **200,000 users**
