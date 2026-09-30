@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.7-blue.svg)
 ![XGBoost](https://img.shields.io/badge/XGBoost-Model-orange.svg)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 </div>
 
@@ -51,7 +50,6 @@ Instacart is an American technology company that operates a same-day grocery del
 ├── Data Preparation.ipynb                : Data preparation for modeling
 ├── ANN Model.ipynb                       : Neural network model for reorder prediction
 ├── XGBoost Model.ipynb                   : XGBoost model for reorder prediction
-├── LICENSE                               : License
 └── README.md                             : Project report
 ```
 
@@ -76,18 +74,18 @@ Instacart is an American technology company that operates a same-day grocery del
 - **Saturday afternoons** and **Sunday mornings** are the busiest ordering windows
 
 <p align="center">
-  <img width="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/dow.png" alt="Orders by day of week">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/orders.png" alt="Orders distribution">
+  <img width="300" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/dow.png" alt="Orders by day of week">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/orders.png" alt="Orders distribution">
   <br>
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/heatmap.png" alt="Day of week vs hour of day heatmap">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/heatmap.png" alt="Day of week vs hour of day heatmap">
 </p>
 
 **Key findings from `order_products`:**
 - Most orders contain **1–15 items**, with a maximum of 145 items in a single order (true for both Prior and Train sets)
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/prior.png" alt="Items per order, prior set">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/train.png" alt="Items per order, train set">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/prior.png" alt="Items per order, prior set">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/train.png" alt="Items per order, train set">
 </p>
 
 ---
@@ -101,8 +99,8 @@ All individual data files were combined into a single dataframe. Its memory foot
 <br>
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-aisles.png" alt="Most popular aisles">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-departments.png" alt="Most popular departments">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/popular-aisles.png" alt="Most popular aisles">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/popular-departments.png" alt="Most popular departments">
 </p>
 
 Popular departments should be placed close to one another in-store.
@@ -116,8 +114,8 @@ Popular departments should be placed close to one another in-store.
 Day-to-day food items have a high reorder percentage, while vitamins, first-aid, and beauty products have a low reorder percentage — groceries are bought regularly, unlike these other categories.
 
 <p align="center">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png" alt="High reorder aisles">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png" alt="Low reorder aisles">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/aisle-high-reorder.png" alt="High reorder aisles">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/aisle-low-reorder.png" alt="Low reorder aisles">
 </p>
 
 </details>
@@ -129,11 +127,11 @@ Day-to-day food items have a high reorder percentage, while vitamins, first-aid,
 Many of the most popular products are organic. There are fewer organic products overall, but their mean reorder percentage is high — suggesting stores could benefit from stocking more of them.
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Most-popular-products.png" alt="Most popular products">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/Most-popular-products.png" alt="Most popular products">
 </p>
 <p align="center">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png" alt="Organic vs inorganic product counts">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png" alt="Organic vs inorganic reorder rate">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/Total-organic-inorganic-products.png" alt="Organic vs inorganic product counts">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/Reorder-organic-inorganic-products.png" alt="Organic vs inorganic reorder rate">
 </p>
 
 </details>
@@ -147,13 +145,13 @@ Many of the most popular products are organic. There are fewer organic products 
 - Products with the highest reorder ratio tend to have very few unique buyers (1–15) — a small but loyal group of repeat purchasers
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Add-to-cart-VS-reorder.png" alt="Add to cart order vs reorder percentage">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/Add-to-cart-VS-reorder.png" alt="Add to cart order vs reorder percentage">
 </p>
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/reorder-total-orders.png" alt="Reorder percentage vs total orders">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/reorder-total-orders.png" alt="Reorder percentage vs total orders">
 </p>
 <p align="center">
-  <img width="500" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/reorder-df.png" alt="Reorder ratio vs unique buyers">
+  <img width="500" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/reorder-df.png" alt="Reorder ratio vs unique buyers">
 </p>
 
 </details>
@@ -165,7 +163,7 @@ Many of the most popular products are organic. There are fewer organic products 
 **85%** of users buy from just **10,000** of the 49,688 total products. For shelf-space optimization, focusing on these ~10,000 products may make sense — assuming the remaining ~39,688 don't contribute significant profit. With pricing data, products could instead be prioritized by revenue, reorder rate, and total sales.
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cumsum_products.png" alt="Cumulative users per product">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/cumsum_products.png" alt="Cumulative users per product">
 </p>
 
 </details>
@@ -181,8 +179,8 @@ Customers were segmented using the **aisles** they buy from as a proxy for produ
 2. **KMeans** clustering was run, with the optimal cluster count (**5**) chosen via the Elbow method
 
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/elbow.png" alt="Elbow method for optimal k">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cluster.png" alt="Clusters on first two principal components">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/elbow.png" alt="Elbow method for optimal k">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/cluster.png" alt="Clusters on first two principal components">
 </p>
 
 **Resulting segments:**
@@ -297,13 +295,13 @@ Both models performed comparably, with **XGBoost slightly ahead on ROC-AUC**.
 <summary><b>📊 Neural Network — architecture & performance</b></summary>
 <br>
 <p align="center">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN%20Architecture.png" alt="NN architecture">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/NN%20Architecture.png" alt="NN architecture">
 </p>
 <p align="center">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Report.png" alt="NN classification report">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/NN-Report.png" alt="NN classification report">
 </p>
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Performance.png" alt="NN confusion matrix and ROC">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/NN-Performance.png" alt="NN confusion matrix and ROC">
 </p>
 </details>
 
@@ -311,13 +309,13 @@ Both models performed comparably, with **XGBoost slightly ahead on ROC-AUC**.
 <summary><b>📊 XGBoost — performance & feature importance</b></summary>
 <br>
 <p align="center">
-  <img width="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Report.png" alt="XGBoost classification report">
+  <img width="400" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/XGBoost-Report.png" alt="XGBoost classification report">
 </p>
 <p align="center">
-  <img width="600" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Performance.png" alt="XGBoost confusion matrix and ROC">
+  <img width="600" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/XGBoost%20Performance.png" alt="XGBoost confusion matrix and ROC">
 </p>
 <p align="center">
-  <img width="500" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Feature%20Importance%20Plot.png" alt="XGBoost feature importance">
+  <img width="500" src="https://github.com/AvinashOraon123/Instacart-Customer-Behaviour-Analysis/blob/main/Plots/XGBoost%20Feature%20Importance%20Plot.png" alt="XGBoost feature importance">
 </p>
 </details>
 
